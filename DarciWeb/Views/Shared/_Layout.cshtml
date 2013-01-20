@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : WaterPainting
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20121212
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Darci Stockman</title>
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700" rel="stylesheet" type="text/css" />
+<link href="http://fonts.googleapis.com/css?family=Dancing+Script|Oswald" rel="stylesheet" type="text/css" />
+@Styles.Render("~/Content/css")
+@Scripts.Render("~/bundles/modernizr")
+@Scripts.Render("~/bundles/jquery")
+</head>
+<body>
+<div id="wrapper">
+	<div id="menu-wrapper">
+		<div id="menu" class="container">
+			<ul>
+				<li id="topnav-home" class="current_page_item"><a href="@Url.Action("Index", "Home")">Home</a></li>
+				<li id="topnav-gallery"><a href="@Url.Action("Index", "Gallery")">Gallery</a></li>
+                <li id="topnav-blog"><a href="@Url.Action("Index", "Blog")">Blog</a></li>
+			</ul>
+		</div>
+	</div>
+	
+    @RenderBody()
+	<!-- end #page -->
+</div>
+<div id="footer-bg">
+	<div id="footer-content" class="container">
+        <div id="social-media">
+            <a href="#"><img src="~/Images/Facebook.png" /></a>
+            <a href="#"><img src="~/Images/Twitter.png" /></a>
+            <a href="#"><img src="~/Images/Pinterest.png" /></a>
+        </div>
+        <div style="clear:both;"></div>
+		<div id="column1">
+			<h2>Add some links here</h2>
+			<ul class="list-style2">
+				<li class="first"><a href="#">Link One of stuff you like.</a></li>
+				<li><a href="#">Link Two of stuff you like.</a></li>
+				<li><a href="#">Link Three of stuff you like.</a></li>
+				<li><a href="#">Link Four of stuff you like.</a></li>
+				<li><a href="#">Link Five of stuff you like.</a></li>
+			</ul>
+		</div>
+		<div id="column2">
+			<h2>Maybe some wimp videos?</h2>
+			<ul class="list-style2">
+				<li class="first"><a href="#">Favorite wimp.com video here.</a></li>
+				<li><a href="#">Second Favorite wimp.com video here.</a></li>
+				<li><a href="#">Third Favorite wimp.com video here.</a></li>
+				<li><a href="#">Fourth Favorite wimp.com video here.</a></li>
+				<li><a href="#">Fifth Favorite wimp.com video here.</a></li>
+			</ul>
+		</div>
+		<div id="column3">
+			<h2>Recommended Links</h2>
+			<ul class="list-style2">
+				<li class="first"><a href="#">Pellentesque quis elit non lectus gravida blandit.</a></li>
+				<li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
+				<li><a href="#">Phasellus nec erat sit amet nibh pellentesque congue.</a></li>
+				<li><a href="#">Cras vitae metus aliquam risus pellentesque pharetra.</a></li>
+				<li><a href="#">Maecenas vitae orci vitae tellus feugiat eleifend.</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div id="footer">
+	<p>Original Design by <a href="http://www.freecsstemplates.org">FCT</a></a>.</p>
+</div>
+<!-- end #footer -->
+</body>
+</html>
