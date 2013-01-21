@@ -91,7 +91,7 @@
 	margin-left:5px;
 	width:30px;
 	height:30px;
-	background: url(./bullet.png) left top;
+	background: url(/images/bullet.png) left top;
 	float: left; 
 	position:relative;
 	border-radius: 15px;
@@ -108,7 +108,7 @@
 	z-index:60;
 	height: 78px;
 	width: 77px;
-	background-image: url(./arrows.png);
+	background-image: url(/images/arrows.png);
 }
 #wowslider-container1 a.ws_next{
 	background-position: 100% 0;
@@ -215,7 +215,7 @@
 	top:-11px;
 	margin-left:2px;
 	left:64px;
-	background:url(./triangle.png);
+	background:url(/images/triangle.png);
 	width:15px;
 	height:6px;
 }
