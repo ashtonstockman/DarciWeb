@@ -246,11 +246,13 @@
     <Content Include="Content\wowSlider\images\FleurdelisCoral.jpg" />
     <Content Include="Content\wowSlider\images\FleurdelisGreen.jpg" />
     <Content Include="Content\wowSlider\images\FloralPinkandViolet.jpg" />
+    <Content Include="Content\wowSlider\images\FuschiaAutumnTree.jpg" />
     <Content Include="Content\wowSlider\images\NewOrleansSkyline.jpg" />
     <Content Include="Content\wowSlider\images\SummerRain.jpg" />
     <Content Include="Content\wowSlider\tooltips\FleurdelisCoral.jpg" />
     <Content Include="Content\wowSlider\tooltips\FleurdelisGreen.jpg" />
     <Content Include="Content\wowSlider\tooltips\FloralPinkandViolet.jpg" />
+    <Content Include="Content\wowSlider\tooltips\FuschiaAutumnTree.jpg" />
     <Content Include="Content\wowSlider\tooltips\NewOrleansSkyline.jpg" />
     <Content Include="Content\wowSlider\tooltips\SummerRain.jpg" />
     <Content Include="favicon.ico" />
