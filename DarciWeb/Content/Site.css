@@ -548,3 +548,22 @@ a:hover {
 	height: 50px;
 	background: url(images/img04.png) no-repeat center top;
 }
+
+.gallery-threeCol
+{
+    width:33%; 
+    float:left; 
+    margin:0 auto; 
+    text-align:center; 
+}
+
+    .gallery-threeCol p
+    {
+        color: #FFFFFF;
+        font-size: large;
+    }
+
+    .gallery-threeCol img
+    {
+        margin: 0 auto;
+    }

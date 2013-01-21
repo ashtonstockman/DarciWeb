@@ -173,6 +173,21 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\gallery\FleurdelisCoral.jpg" />
+    <Content Include="Content\gallery\FleurdelisGreen.jpg" />
+    <Content Include="Content\gallery\FleurdelisoffsetViolet.jpg" />
+    <Content Include="Content\gallery\FleurdelisOrange.jpg" />
+    <Content Include="Content\gallery\FleurdelisViolet2.jpg" />
+    <Content Include="Content\gallery\FloralGreenandBlue.jpg" />
+    <Content Include="Content\gallery\FloralPinkandViolet.jpg" />
+    <Content Include="Content\gallery\FuschiaAutumnTree.jpg" />
+    <Content Include="Content\gallery\InitialSeriesB.jpg" />
+    <Content Include="Content\gallery\InitialSeriesJ.jpg" />
+    <Content Include="Content\gallery\InitialSeriesS.jpg" />
+    <Content Include="Content\gallery\InitialSeriesW.jpg" />
+    <Content Include="Content\gallery\NewOrleansLampPost.jpg" />
+    <Content Include="Content\gallery\NewOrleansSkyline.jpg" />
+    <Content Include="Content\gallery\SummerRain.jpg" />
     <Content Include="Content\wowSliderStyle.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
