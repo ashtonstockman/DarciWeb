@@ -256,10 +256,12 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
+    <Content Include="Images\arrows.png" />
     <Content Include="Images\Facebook.png" />
     <Content Include="Images\Flickr.png" />
     <Content Include="Images\Pinterest.png" />
     <Content Include="Images\RSS.png" />
+    <Content Include="Images\triangle.png" />
     <Content Include="Images\Twitter.png" />
     <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />
