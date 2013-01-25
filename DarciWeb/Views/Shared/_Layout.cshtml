@@ -19,13 +19,19 @@ Released   : 20121212
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700" rel="stylesheet" type="text/css" />
     <link href="http://fonts.googleapis.com/css?family=Dancing+Script|Oswald" rel="stylesheet" type="text/css" />
     @Styles.Render("~/Content/css")
+    @Styles.Render("~/Content/themes/base/css")
     @Scripts.Render("~/bundles/modernizr")
     @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryui")
+
+    
+    
 </head>
 <body>
     <div id="wrapper">
         <div id="menu-wrapper">
             <div id="menu" class="container">
+                <div id="secretLogin">&nbsp;</div>
                 <ul>
                     <li id="topnav-home" class="current_page_item"><a href="@Url.Action("Index", "Home")">Home</a></li>
                     <li id="topnav-gallery"><a href="@Url.Action("Index", "Gallery")">Gallery</a></li>
@@ -73,5 +79,36 @@ Released   : 20121212
         <p>Original Design by <a href="http://www.freecsstemplates.org">FCT</a></a>.</p>
     </div>
     <!-- end #footer -->
+    <div id="modalLogin">
+        <p>user</p>
+        <input type="text" id="user"/>
+        <p>pass</p>
+        <input type="text" id="pass"/>
+        <input type="button" value="login" onclick="authenticate()" />
+    </div>
+    <script type="text/javascript">
+        $("#secretLogin").click(function () {
+            $("#modalLogin").dialog({ modal: true, height: 250, width: 250 });
+        });
+
+        function authenticate() {
+            $.ajax({
+                type: "POST",
+                url: '@Url.Action("Authenticate", "Home")',
+                data: { "user": $("#user").val(), "pass": $("#pass").val() },
+                success: redirect
+            });
+        }
+
+        function redirect(data) {
+            if (data.success == "0") {
+                alert(data.token);
+            }
+            else {
+                window.location.href = "@(Url.Action("Manage", "Gallery") + "?z=")" + data.token;
+            }
+
+        }
+    </script>
 </body>
 </html>

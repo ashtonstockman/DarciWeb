@@ -28,5 +28,14 @@ namespace DarciWeb.Controllers
 
             return View();
         }
+
+        [HttpPost]
+        public JsonResult Authenticate(string user, string pass)
+        {
+            if (user == "darci76844" && pass == "lillian00")
+                return Json(new { success = "1", token = "omgwtfbbqsauceopotamus" });
+            else
+                return Json(new { success = "0", token = "incorrect" });
+        }
     }
 }

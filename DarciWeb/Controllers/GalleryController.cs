@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using DarciWeb.Models;
 
 namespace DarciWeb.Controllers
 {
@@ -14,6 +15,19 @@ namespace DarciWeb.Controllers
         public ActionResult Index()
         {
             return View();
+        }
+
+        public ActionResult Manage(string z)
+        {
+            GalleryModel model = new GalleryModel();
+            if (z == "omgwtfbbqsauceopotamus")
+            {
+                model.loginMessage = "Hello schmex!";
+                model.loginSuccess = true;
+                return View(model);
+            }
+
+            return RedirectToAction("Index", "Home");
         }
 
     }

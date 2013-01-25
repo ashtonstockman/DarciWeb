@@ -569,3 +569,16 @@ a:hover {
     {
         margin: 0 auto;
     }
+
+
+#secretLogin
+{
+    position:absolute;
+    height:20px;
+    width:20px;
+}
+
+#modalLogin
+{
+    display:none;
+}

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="db4526dcc7cc9a4725a006a15100314384" Class="DarciWebDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=4526dcc7-cc9a-4725-a006-a15100314384.sqlserver.sequelizer.com;Initial Catalog=db4526dcc7cc9a4725a006a15100314384;Persist Security Info=True;User ID=ouohjsobijoqvtfm" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="db4526dcc7cc9a4725a006a15100314384ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.GalleryItem" Member="GalleryItems">
+    <Type Name="GalleryItem">
+      <Column Name="GalleryItemId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ItemText" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="SortOrder" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>
