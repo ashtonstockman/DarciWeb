@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>SkyNet</id>
+    <version>1.2</version>
+    <authors>John Hoerr</authors>
+    <owners>John Hoerr</owners>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/jhoerr/SkyNet</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A client to access SkyDrive resources through its RESTful API. (http://msdn.microsoft.com/en-US/library/live/hh243648)</description>
+    <releaseNotes>Fixing API request/response issues that were causing headaches.  Also added methods that return the created/copied/moved files/folders to reduce inefficiency.</releaseNotes>
+    <copyright>Copyright 2012 The Trustees of Indiana University (www.iu.edu)</copyright>
+    <tags>SkyDrive</tags>
+    <dependencies>
+      <dependency id="RestSharp" version="104.0" />
+    </dependencies>
+  </metadata>
+</package>

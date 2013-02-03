@@ -99,6 +99,10 @@ a:hover {
 	font-size: 100px;
 }
 
+    #logo h1 a {
+        cursor:default;
+    }
+
 #logo p {
 	margin-top: -20px;
 	padding: 0px 0px 0px 5px;
@@ -367,18 +371,20 @@ a:hover {
 
 #footer-content {
 	color: #C59C9C;
-    margin-left:30px;
+    margin: 0px auto;
 }
 
     #footer-content #social-media
     {
-        margin-top:-60px; float:left;
+        width:201px;
+        margin:-60px auto;
     }
 
         #footer-content #social-media a, img
         {
-            margin-right:10px;
-            border:none;
+            margin-right: 20px;
+            border: none;
+            margin-left: -12px;
         }
 
 #footer-content h2 {
@@ -388,22 +394,27 @@ a:hover {
 	text-shadow: 1px 1px 0px #FFFFFF;
 	font-size: 26px;
 	color: #373737;
+    text-align:center;
 }
 
 #column1 {
 	float: left;
-	width: 384px;
+	width: 30%;
 	margin-right: 20px;
+    margin-top:70px;
 }
 
 #column2 {
 	float: left;
-	width: 384px;
+	width: 30%;
+    margin-right: 20px;
+    margin-top:70px;
 }
 
 #column3 {
-	float: right;
-	width: 384px;
+	float: left;
+	width: 30%;
+    margin-top:70px;
 }
 
 /* Footer */
@@ -466,6 +477,7 @@ a:hover {
 .list-style2 li {
 	padding: 7px 0px 7px 0px;
 	border-top: 1px solid #E0E1D6;
+    text-align:center;
 }
 
 .list-style2 a {

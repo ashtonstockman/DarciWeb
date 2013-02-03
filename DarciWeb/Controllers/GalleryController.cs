@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using DarciWeb.Models;
+using SkyNet;
 
 namespace DarciWeb.Controllers
 {
@@ -26,6 +27,9 @@ namespace DarciWeb.Controllers
                 model.loginSuccess = true;
                 return View(model);
             }
+
+            
+            
 
             return RedirectToAction("Index", "Home");
         }

@@ -40,6 +40,15 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Live, Version=5.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveSDK.5.3\lib\net45\Microsoft.Live.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp">
+      <HintPath>..\packages\RestSharp.104.0\lib\net4\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="SkyNet">
+      <HintPath>..\packages\SkyNet.1.2\lib\net40\SkyNet.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Data.Entity" />
@@ -180,21 +189,19 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\gallery\ClimbingViolets.jpg" />
+    <Content Include="Content\gallery\EgyptianBlueViolets.jpg" />
+    <Content Include="Content\gallery\Evergreen.jpg" />
     <Content Include="Content\gallery\FleurdelisCoral.jpg" />
-    <Content Include="Content\gallery\FleurdelisGreen.jpg" />
-    <Content Include="Content\gallery\FleurdelisoffsetViolet.jpg" />
+    <Content Include="Content\gallery\Fleurdelismardigras.jpg" />
     <Content Include="Content\gallery\FleurdelisOrange.jpg" />
     <Content Include="Content\gallery\FleurdelisViolet2.jpg" />
-    <Content Include="Content\gallery\FloralGreenandBlue.jpg" />
+    <Content Include="Content\gallery\FleurdelisYellow.jpg" />
     <Content Include="Content\gallery\FloralPinkandViolet.jpg" />
     <Content Include="Content\gallery\FuschiaAutumnTree.jpg" />
-    <Content Include="Content\gallery\InitialSeriesB.jpg" />
-    <Content Include="Content\gallery\InitialSeriesJ.jpg" />
-    <Content Include="Content\gallery\InitialSeriesS.jpg" />
-    <Content Include="Content\gallery\InitialSeriesW.jpg" />
-    <Content Include="Content\gallery\NewOrleansLampPost.jpg" />
-    <Content Include="Content\gallery\NewOrleansSkyline.jpg" />
+    <Content Include="Content\gallery\PinkAfricanViolets.jpg" />
     <Content Include="Content\gallery\SummerRain.jpg" />
+    <Content Include="Content\gallery\Violets.jpg" />
     <Content Include="Content\wowSliderStyle.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
@@ -269,6 +276,7 @@
       <LastGenOutput>DarciWeb.designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="Fonts\LiveSymbol.ttf" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="Images\arrows.png" />
     <Content Include="Images\Facebook.png" />
